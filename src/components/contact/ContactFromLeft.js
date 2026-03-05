@@ -9,16 +9,16 @@ const ContactFromLeft = () => {
       src={ContactImg} alt="contactImg" />
 
     <div className='flex flex-col gap-4 mb-8'>
-      <h2 className='text-3xl font-bold text-white'>Srilakshmi Maduri</h2>
-      <p className='text-lg tracking-wide text-gray-400'>Frontend Developer</p>
+      <h2 className='text-3xl font-bold text-white'>Shiva Amballa</h2>
+      <p className='text-lg tracking-wide text-gray-400'>QA Automation Engineer</p>
       <p className='text-base tracking-wide text-gray-400'>
-        A passionate web developer currently looking for frontend developer role or software engineer role expert in writing structured javascript code and also gained knowledge on REACT
+        A passionate QA Automation engineer currently looking for SDET role expert in writing structured framework and also gained knowledge in both UI and API automation testing.
       </p>
       <p className='text-base tracking-wide text-gray-400'>
-        Mobile: <span className='text-lightText'>+91-7989564005</span>
+        Mobile: <span className='text-lightText'>+91-7013572842</span>
       </p>
       <p className='text-base tracking-wide text-gray-400'>
-        Email: <span className='text-lightText'>srilakshmimaduri@gmail.com</span>
+        Email: <span className='text-lightText'>amballashiva967@gmail.com</span>
       </p>
     </div>
     <div className='flex flex-col gap-4'>
@@ -28,12 +28,12 @@ const ContactFromLeft = () => {
     </div>
     <div className='flex gap-4'>
       <span className='bannerIcon'>
-      <a href="https://www.linkedin.com/in/srilakshmi-maduri-55662b227" target="_blank" rel="noreferrer">
+      <a href="https://www.linkedin.com/in/shiva-amballa-017549202" target="_blank" rel="noreferrer">
         <FaLinkedinIn />
         </a>
         </span>
       <span className='bannerIcon'>
-      <a href="https://github.com/SrilakshmiMaduri" target="_blank" rel="noreferrer">
+      <a href="https://github.com/Shiva-Aspire" target="_blank" rel="noreferrer">
       <FaGithub />
       </a>
       </span>

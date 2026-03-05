@@ -1,8 +1,8 @@
 import React from 'react';
 import { Title } from '../layouts/Title';
 import { Card } from './Card';
-import { FaMobile, FaGlobe } from 'react-icons/fa';
-import { SiAntdesign } from 'react-icons/si';
+import { FaGlobe } from 'react-icons/fa';
+import { SiSelenium, SiPostman } from 'react-icons/si';
 
 const Features = () => {
   return (
@@ -14,14 +14,14 @@ const Features = () => {
 
       <div className='grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 gap-6 xl:gap-14'>
         <Card
-          title="Web Developer"
-          desc="Developed websites using frontend technologies and framework which is responsive on all devices"
-          icon={<FaMobile />}
+          title="Web Automation Testing"
+          desc="Automation Tester skilled in Selenium WebDriver, Java, TestNG, and Maven, with experience in designing scalable automation frameworks using Page Object Model & integrating tests with CI/CD pipelines and Git for efficient web application testing."
+          icon={<SiSelenium />}
         />
         <Card
-          title="UI Designer"
-          desc="Perfect in writing HTML,CSS and Javascript code and also expert in skills in React"
-          icon={<SiAntdesign />}
+          title="API Automation "
+          desc="API Automation Tester skilled in Rest Assured, Java, TestNG, and Maven, with experience in validating REST APIs, automating CRUD operations, and integrating automated tests with CI/CD pipelines and Git for efficient API testing."
+          icon={<><SiPostman /></>}
         />
         <Card
           title="Coding Websites"

@@ -15,7 +15,7 @@ const Navbar = () => {
         <div>
           <img className="w-16 h-16 my-2 rounded-full" src={logo} alt="logo" />
         </div>
-        <span className="flex items-center pl-2 text-gray-400">Maduri</span>
+        <span className="flex items-center pl-2 text-gray-400">Shiva</span>
       </div>
 
       <div>
@@ -57,7 +57,7 @@ const Navbar = () => {
                     alt="logo"
                   ></img>
                 </div>
-                <span className="flex items-center pl-2">Maduri</span>
+                <span className="flex items-center pl-2">Shiva</span>
               </div>
 
               <ul className="flex flex-col gap-4 pt-5">

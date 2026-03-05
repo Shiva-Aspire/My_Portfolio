@@ -11,12 +11,12 @@ const FooterOne = () => {
           <img className="w-24 h-24 m-5 rounded-full" src={logo} alt="logo"></img>
           <div className='flex gap-4'>
             <span className='bannerIcon'>
-              <a href="https://www.linkedin.com/in/srilakshmi-maduri-55662b227" target="_blank" rel="noreferrer">
+              <a href="https://www.linkedin.com/in/shiva-amballa-017549202" target="_blank" rel="noreferrer">
                 <FaLinkedinIn />
               </a>
             </span>
             <span className='bannerIcon'>
-              <a href="https://github.com/SrilakshmiMaduri" target="_blank" rel="noreferrer">
+              <a href="https://github.com/Shiva-Aspire" target="_blank" rel="noreferrer">
                 <FaGithub />
               </a>
             </span>

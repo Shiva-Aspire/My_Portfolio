@@ -17,14 +17,16 @@ export const Projects = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 gap-6 xl:gap-14'>
                 <ProjectsCard
-                    title="codepen clone"
-                    des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+                    title="WalletWatch"
+                    des="WalletWatch: A simple web app to track monthly income and expenses. It enables quick data entry and displays financial insights through interactive charts, helping users manage budgets and analyze spending easily.
+"
                     src={projectThree}
                 />
 
                 <ProjectsCard
-                    title="food website clone"
-                    des="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+                    title="Banking Framework"
+                    des="Banking Framework: Built an automation framework for banking applications using Java, Selenium, and Rest Assured, supporting both web UI and API testing with TestNG, Maven, and Git for reliable and maintainable test automation.
+"
                     src={projectOne}
                 />
 

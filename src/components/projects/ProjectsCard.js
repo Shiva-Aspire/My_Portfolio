@@ -16,12 +16,35 @@ const ProjectsCard = ({ title, des, src }) => {
             {title}
           </h3>
           <div className='flex gap-1'>
-            <span className='inline-flex items-center justify-center w-10 h-10 text-lg text-gray-400 duration-300 bg-black rounded-full cursor-pointer hover:text-designColor'>
-              <BsGithub />
-            </span>
-            <span className='inline-flex items-center justify-center w-10 h-10 text-lg text-gray-400 duration-300 bg-black rounded-full cursor-pointer hover:text-designColor'>
-              <FaGlobe />
-            </span>
+            {title === 'Banking Framework' ? (
+              <a href='https://github.com/Shiva-Aspire/BankingFramework' target='_blank' rel='noreferrer'>
+                <span className='inline-flex items-center justify-center w-10 h-10 text-lg text-gray-400 duration-300 bg-black rounded-full cursor-pointer hover:text-designColor'>
+                  <BsGithub />
+                </span>
+              </a>
+            ) : title === 'WalletWatch' ? (
+              <a href='https://github.com/Shiva-Aspire/WalletWatch' target='_blank' rel='noreferrer'>
+                <span className='inline-flex items-center justify-center w-10 h-10 text-lg text-gray-400 duration-300 bg-black rounded-full cursor-pointer hover:text-designColor'>
+                  <BsGithub />
+                </span>
+              </a>
+            ) : (
+              <span className='inline-flex items-center justify-center w-10 h-10 text-lg text-gray-400 duration-300 bg-black rounded-full cursor-pointer hover:text-designColor'>
+                <BsGithub />
+              </span>
+            )}
+
+            {title === 'WalletWatch' ? (
+              <a href='https://walletwatch-dashboard.netlify.app/' target='_blank' rel='noreferrer'>
+                <span className='inline-flex items-center justify-center w-10 h-10 text-lg text-gray-400 duration-300 bg-black rounded-full cursor-pointer hover:text-designColor'>
+                  <FaGlobe />
+                </span>
+              </a>
+            ) : (
+              <span className='inline-flex items-center justify-center w-10 h-10 text-lg text-gray-400 duration-300 bg-black rounded-full cursor-pointer hover:text-designColor'>
+                <FaGlobe />
+              </span>
+            )}
           </div>
         </div>
 
