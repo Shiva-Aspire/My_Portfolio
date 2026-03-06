@@ -3,7 +3,7 @@ import bannerImg from "./images/bannerImg1.jpeg";
  import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
 import projectThree from "./images/projects/projectThree.png";
-import ContactImg from "./images/contacts/ContactImg.jpg";
+import ContactImg from "./images/contacts/contact_img.png";
 
 export {
   logo,
